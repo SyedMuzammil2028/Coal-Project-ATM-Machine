@@ -1,106 +1,100 @@
-🏧 ATM Management System (x86 Assembly – COAL Project)
-📌 Overview
+ATM Management System
+x86 Assembly Language (COAL Project)
+1. Introduction
 
-The ATM Management System is a console-based simulation of a real-world ATM, developed using x86 Assembly Language (MASM) with the Irvine32 library. This project was completed as part of the Computer Organization & Assembly Language (COAL) course at FAST-NUCES.
+The ATM Management System is a console-based simulation of an Automated Teller Machine developed using x86 Assembly Language (MASM) and the Irvine32 library. This project was completed as part of the Computer Organization and Assembly Language (COAL) course at the National University of Computer and Emerging Sciences (FAST-NUCES).
 
-The system focuses on low-level programming concepts, including memory management, register usage, procedure-based design, and conditional control flow, while implementing realistic banking operations.
+The primary objective of this project is to demonstrate a practical understanding of low-level system programming concepts by implementing real-world banking operations at the assembly level.
 
-🎯 Features
+2. System Features
 
-Secure Login System
+Secure authentication using account number and PIN verification
 
-Account number verification
+Card locking mechanism after three incorrect PIN attempts
 
-4-digit PIN authentication
+Support for multiple user accounts with independent balances
 
-Card lock after 3 incorrect PIN attempts
+Balance inquiry displaying total and available balance
 
-Multi-User Support
+Cash withdrawal using predefined denominations
 
-Separate accounts with individual balances
+Deposit functionality with input validation
 
-Secure session-based user handling
+Fund transfer between accounts with self-transfer prevention
 
-Core ATM Operations
+Automatic transaction receipt generation
 
-Balance inquiry (total & available balance)
+Comprehensive error handling for invalid inputs and insufficient balance
 
-Cash withdrawal with fixed denominations
+3. Functional Modules
 
-Deposit with input validation
+Login Module: Handles account verification and PIN authentication
 
-Fund transfer between accounts (self-transfer restricted)
+Balance Inquiry Module: Displays account balances
 
-Transaction Receipts
+Withdrawal Module: Processes cash withdrawal requests
 
-Transaction type (Withdraw / Deposit / Transfer)
+Deposit Module: Handles deposit transactions
 
-Amount
+Transfer Module: Transfers funds between valid accounts
 
-Source and destination accounts
+Receipt Module: Prints transaction details after each operation
 
-Updated account balance
+Menu Control Module: Manages navigation and user interaction
 
-Robust Error Handling
+4. Technical Implementation
 
-Invalid menu selections
+Modular program structure using procedures (PROC / ENDP)
 
-Insufficient balance
+Use of arrays to manage account numbers, PINs, and balances
 
-Incorrect credentials
+Indexed memory access for efficient data handling
 
-Invalid transaction inputs
+Conditional branching and looping for menu and logic control
 
-🛠️ Technical Implementation
+Register-based arithmetic and memory operations
 
-Modular design using procedures (PROC / ENDP)
+Console input/output handled through the Irvine32 library
 
-Efficient use of arrays for accounts, PINs, and balances
+Clear separation of data, logic, and control flow segments
 
-Indexed memory access and register-based computation
+5. Technology Stack
 
-Conditional branching and looping for menu navigation
-
-Console I/O via Irvine32 library
-
-Clear separation of data, logic, and control flow
-
-💻 Tech Stack
-
-Language: x86 Assembly (MASM)
+Programming Language: x86 Assembly Language (MASM)
 
 Library: Irvine32
 
-Platform: Windows (Console Application)
+Platform: Windows Console Application
 
-Assembler: MASM (Microsoft Macro Assembler)
+Development Environment: Visual Studio with MASM support
 
-📚 Learning Outcomes
+6. How to Run
 
-Strong understanding of low-level system design
+Install MASM and configure the Irvine32 library
 
-Hands-on experience with registers, memory addressing, and stack usage
+Open the project in Visual Studio
 
-Improved debugging and logical problem-solving skills
+Assemble and link the ATM.asm file
 
-Practical exposure to real-world system simulation at the assembly level
+Execute the program in the console window
 
-▶️ How to Run
+7. Learning Outcomes
 
-Install MASM and ensure Irvine32 is properly configured
+Strong understanding of computer organization and architecture
 
-Open the project in a supported IDE (Visual Studio recommended)
+Practical experience with low-level memory and register management
 
-Assemble and link the .asm file
+Improved skills in assembly-level debugging and logic design
 
-Run the executable in the console
+Exposure to real-world system modeling using assembly language
 
-👤 Author
+8. Author
 
 Syed Muzammil
-Cybersecurity Undergraduate | FAST-NUCES
-
-📌 Course
-
-Computer Organization & Assembly Language (COAL)
+Cybersecurity Undergraduate
 National University of Computer and Emerging Sciences (FAST-NUCES)
+
+9. Course Information
+
+Course Title: Computer Organization and Assembly Language (COAL)
+Institution: National University of Computer and Emerging Sciences (FAST-NUCES)
