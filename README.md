@@ -4,35 +4,35 @@ This project is a console-based ATM simulation developed using x86 Assembly Lang
 
 - Features
 
-  Account number and PIN-based authentication
-  Card lock after three failed PIN attempts
-  Multi-user account handling with independent balances
-  Balance inquiry (total and available balance)
-  Cash withdrawal using fixed denominations
-  Deposit with input validation
-  Fund transfer between valid accounts
-  Transaction receipt generation
-  Error handling for invalid input and insufficient balance
-  Implementation Details
-  Modular design using assembly procedures (PROC/ENDP)
-  Arrays used for storing account numbers, PINs, and balances
-  Indexed memory access and register-based computation  
-  Conditional branching and loop-based control flow
-  Console input/output handled via the Irvine32 library
+  - Account number and PIN-based authentication
+  - Card lock after three failed PIN attempts
+  - Multi-user account handling with independent balances
+  - Balance inquiry (total and available balance)
+  - Cash withdrawal using fixed denominations
+  - Deposit with input validation
+  - Fund transfer between valid accounts
+  - Transaction receipt generation
+  - Error handling for invalid input and insufficient balance
+  - Implementation Details
+  - Modular design using assembly procedures (PROC/ENDP)
+  - Arrays used for storing account numbers, PINs, and balances
+  - Indexed memory access and register-based computation  
+  - Conditional branching and loop-based control flow
+  - Console input/output handled via the Irvine32 library
 
 - Technology Stack
 
-  Language: x86 Assembly (MASM)
-  Library: Irvine32
-  Platform: Windows (Console Application)
+  - Language: x86 Assembly (MASM)
+  - Library: Irvine32
+  - Platform: Windows (Console Application)
 
 - How to Run
 
-  Configure MASM and the Irvine32 library
-  Assemble and link ATM.asm
-  Run the executable in a console window
+  - Configure MASM and the Irvine32 library
+  - Assemble and link ATM.asm
+  - Run the executable in a console window
 
 - Author
 
-Syed Muzammil
-Cybersecurity Undergraduate, FAST-NUCES
+  - Syed Muzammil
+  - Cybersecurity Undergraduate, FAST-NUCES
